@@ -1,0 +1,81 @@
+t<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256- 
+     DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="crossorigin="anonymous"></script> 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Personal Organiser</title>
+    </head>
+    <main> 
+        <nav>
+            <div class="nav-wrapper teal lighten-2">
+              <a href="#" class="brand-logo">Personal Organiser</a>
+            </div>
+          </nav>
+          
+
+
+       <p class="grey-text text-lighten-1">Click button to add todo item to your list below.</p>
+       
+<!-- Modal Trigger -->
+<div class='buttonbox'>
+<a id="buttonred" class="waves-effect waves-light red btn modal-trigger"  href="#modal1">Add Todo</a>
+</div>
+<h4>My List:</h4>
+<div class='tilediv'><ul class="tiles"></ul></div>
+
+  
+</ul>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Add Todo to list</h4>
+    <div class="row">
+      <form class="col s6">
+        <div class="row">
+          <form class="input-field col s6">
+            <textarea id="textarea1" onfocus="this.value=''" class="materialize-textarea" name="item"></textarea>
+            <label for="textarea1">Write Todo</label>
+            <input id='button' type='submit' value='Add Item'></input>
+          </form>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
+  </div>
+</div>
+
+
+    </main>
+      <footer class="page-footer">
+
+
+        
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Please Subscribe</h5>
+              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2021 Personal Organiser
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<body>
+    
+</body>
+</html>
