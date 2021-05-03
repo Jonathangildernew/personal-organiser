@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+
+  .grey-text{
+    text-align: center;
+  }
+
+h4{
+  text-align: center;
+}
+
+  .buttonbox{
+    position:relative;
+    left:1150px;
+    width: 50px;
+  }
+
+  .tilediv{
+    position: relative;
+    width: 50vw;
+    left:35px;
+  }
